@@ -1,19 +1,12 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8139238&assignment_repo_type=AssignmentRepo)
-# Simple Bank Exercise
+# DevBank
 
-SimpleBank is a [Truffle](https://www.trufflesuite.com/) project that contains
-a starter contract,
-[migration](https://www.trufflesuite.com/docs/truffle/getting-started/running-migrations#migration-files)
-and [Truffle JavaScript test
-files](https://www.trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript).
-In this exercise you are going to implement the SimpleBank.sol contract.
+DevBank is a mini, continually-growing Solidity smart contract that implements the functionalities of a centralised bank, but in a decentralised way. More features that will leverage on the features of web3 and blockchain will continually be added. The end goal is a De-Fi bank for the decentralised world.
 
 ## Files
-
   * `contracts/SimpleBank.sol`
-    : the partial implementation of a Solidity Contract you will complete. 
+    : the implementation of a Solidity Contract. 
   * `test/simpleBank.test.js`
-    : the Truffle test file that describes the behavior of a correct SimpleBank
+    : the Truffle test file that describes the behavior of a correct devbank
     contract.
 
 ## Requirements
@@ -24,27 +17,4 @@ In this exercise you are going to implement the SimpleBank.sol contract.
   1. Your preferred code editor.
   1. Familiarity with terminals.
 
-## Instructions
 
-Follow the comments outlined in SimpleBank.sol to implement its
-functionality. The test are there to determine correct contract behavior as
-well as guide you through the implementation. 
-
-The general workflow is to use Test Drive Development's red green process:
-  1. Run `truffle test` from a terminal.
-  2. Use the failed test output along with the hints in
-     `contracts/SimpleBank.sol` to make the test pass.
-
-<!-- <details><summary>Video: Run a test example</summary>
-
-[![asciicast](https://asciinema.org/a/u3oXwF8qKruSN81sm8MGsmTf0.png)](https://asciinema.org/a/u3oXwF8qKruSN81sm8MGsmTf0)
-
-</details> -->
-
-
-### Note on testing
-
- Check out the testing files to see how tests are implemented in JavaScript.
- We will go over the details of implementing tests later in the curriculum. Of
- course, if you have questions, do reach out in Discord, or schedule an Office
- Hour session with one of our mentors.
